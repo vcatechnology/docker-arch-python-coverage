@@ -19,4 +19,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install the packages needed for Python coverage
 RUN sudo vca-install-package \
-  python-coverage
+  python-coverage \
+  python-setuptools
